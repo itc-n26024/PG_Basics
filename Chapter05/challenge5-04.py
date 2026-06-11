@@ -4,7 +4,9 @@ me = {
       "fav_author": "西尾維新"
       }
 
-answer = input("Type height, fav_color or fav_author:")
-if answer in  me:
-    result =  me[answer]
-    print(result)
+ask = input("知りたい特徴を入力してね :")
+if ask in  me:
+    answer =  me[ask]
+    print(answer)
+else:
+    print("それはわからないよ。めんご")
