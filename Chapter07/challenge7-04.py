@@ -1,7 +1,7 @@
 n = [11, 32, 33, 15, 1]
 
 while True:
-    a = input("Guess a number or type q to quit.")
+    a = input("1~10の数字を入力してください")
     if a == "q":
         break
     try:
